@@ -1,0 +1,157 @@
+<html><head>
+                <style>
+                    .linenums {
+                        list-style-type: none;
+                    }
+
+                    .formatted-line-numbers {
+                        display: none;
+                    }
+                    .action-code-block {
+                        display: none;
+                    }
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    table, th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                </style>
+            </head><body><h2><span class="header-link octicon octicon-link"></span>Generative AI</h2><h3><span class="header-link octicon octicon-link"></span>Course Glossary: AI models for NLP</h3><div>
+
+<p>Welcome! This alphabetized glossary contains many of the terms in this course. This comprehensive glossary also includes additional industry-recognized terms not used in course videos. These terms are essential for you to recognize when working in the industry, participating in user groups, and in other certificate programs.</p>
+<p><strong>Estimated reading time:</strong> 4 minutes</p>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Bag-of-words</strong></td>
+<td>A representation that portrays a document as the aggregate or average of one-hot encoded vectors. It represents documents as a set of words and considers the frequency of a word's occurrence within the document.</td>
+</tr>
+<tr>
+<td><strong>Bi-gram model</strong></td>
+<td>A conditional probability model with context size one, which means that you consider only the adjacent words&nbsp; in the sequence to predict the next one.</td>
+</tr>
+<tr>
+<td><strong>Context vector</strong></td>
+<td>Product of the context size and the size of the vocabulary. Typically, this vector is not computed directly but is constructed by concatenating the embedding vectors.</td>
+</tr>
+<tr>
+<td><strong>Continuous bag of words (CBOW)</strong></td>
+<td>A model that utilizes context words to predict a target word and generate its embedding.</td>
+</tr>
+<tr>
+<td><strong>Cross-entropy loss</strong></td>
+<td>A metric used to measure the performance of a classification model. The output is a number between 0 and 1. The smaller the number, the better the model.</td>
+</tr>
+<tr>
+<td><strong>Data loader</strong></td>
+<td>Application component that enables efficient batching and shuffling of data, which is essential for training neural networks. It allows for on-the-fly preprocessing, which optimizes memory usage. Data loaders are important for managing large data sets efficiently during model training.</td>
+</tr>
+<tr>
+<td><strong>Data set</strong></td>
+<td>A collection of data samples and their labels.</td>
+</tr>
+<tr>
+<td><strong>Embedding layer</strong></td>
+<td>A layer that accepts token indices and produces embedding vectors.</td>
+</tr>
+<tr>
+<td><strong>Fine-tuning</strong></td>
+<td>Adjusting a pretrained model to improve performance for a specific task or data set. This makes the model generate more accurate and contextually relevant content.</td>
+</tr>
+<tr>
+<td><strong>Gated recurrent units (or GRUs)</strong></td>
+<td>A popular recurrent neural network (RNN) enhancements with a gating mechanism to control information flow within the network. They are similar to long short-term memory (LSTM) but can be trained quickly.</td>
+</tr>
+<tr>
+<td><strong>Hyperparameters</strong></td>
+<td>Configuration settings of a neural network that are external to a model and define aspects such as behavior during training.</td>
+</tr>
+<tr>
+<td><strong>Large language models (LLMs)</strong></td>
+<td>Foundation models that use AI and deep learning with vast data sets to generate text, translate languages, and create various types of content. They are called large language models due to the size of the training data set and the number of parameters.</td>
+</tr>
+<tr>
+<td><strong>Learnable parameters</strong></td>
+<td>The weights and biases in a neural network that are optimized during the training of a model.</td>
+</tr>
+<tr>
+<td><strong>Learning rate</strong></td>
+<td>A hyperparameter that determines how quickly or slowly the neural network learns from the data. It regulates the step size in the optimization process.</td>
+</tr>
+<tr>
+<td><strong>Logits</strong></td>
+<td>Raw, unnormalized outputs of a neural network before the activation function is applied.</td>
+</tr>
+<tr>
+<td><strong>Long short-term memory (or LSTMs)</strong></td>
+<td>A popular recurrent neural network (RNN) enhancements effective for tasks involving extensive time-series data, such as natural language processing (NLP).</td>
+</tr>
+<tr>
+<td><strong>Loss function</strong></td>
+<td>A measure that represents the difference between the values predicted by a model and the actual values in the training data</td>
+</tr>
+<tr>
+<td><strong>Monte Carlo sampling</strong></td>
+<td>A statistical technique that involves generating random samples from a probability distribution. It is specifically beneficial when dealing with systems that involve uncertainty.</td>
+</tr>
+<tr>
+<td><strong>Natural language processing (NLP)</strong></td>
+<td>The subfield of artificial intelligence (AI) that deals with the interaction of computers and humans in human language. It involves creating algorithms and models that will help computers understand and comprehend human language and generate contextually relevant text in human language.</td>
+</tr>
+<tr>
+<td><strong>Neural networks</strong></td>
+<td>Computational models inspired by the structure of the human brain. A neural network model consists of an input layer, one or more hidden layers, and an output layer.</td>
+</tr>
+<tr>
+<td><strong>N-gram model</strong></td>
+<td>Language model that analyzes sequences of 'n' consecutive items, often words, to predict patterns or phrases occurring in a text. The n-gram model allows for an arbitrary context size.</td>
+</tr>
+<tr>
+<td><strong>NLTK</strong></td>
+<td>A Python library used in natural language processing (NLP) for tasks, such as tokenization and text processing.</td>
+</tr>
+<tr>
+<td><strong>One-hot encoding</strong></td>
+<td>The method used to convert categorical data into feature vectors that a neural network can understand</td>
+</tr>
+<tr>
+<td><strong>Perplexity</strong></td>
+<td>Metric for evaluating the efficiency of large language models (LLMs) and generative AI models. In language modeling, perplexity can be seen as a measure of how surprised or uncertain the model is when predicting the next word in a sequence.&nbsp; Lower perplexity values indicate better performance of language models.</td>
+</tr>
+<tr>
+<td><strong>PyTorch</strong></td>
+<td>A dynamic deep learning framework developed by Facebook's AI Research lab. It is a Python-based library well-known for its ease of use, flexibility, and dynamic computation graphs.</td>
+</tr>
+<tr>
+<td><strong>Recurrent neural networks (or RNNs)</strong></td>
+<td>Artificial neural networks that use sequential or time series data. You can use RNNs to solve data-related problems with a natural order or time-based dependencies.&nbsp; They have loops in their architecture, allowing information to persist over time, making them suitable for sequential data processing.</td>
+</tr>
+<tr>
+<td><strong>Sequence-to-sequence model</strong></td>
+<td>Neural network architecture, where both input and output are sequences of data. It is used in machine translation, such as converting English phrases into French.</td>
+</tr>
+<tr>
+<td><strong>Skip-gram model</strong></td>
+<td>A word embedding model that predicts surrounding context words from a specific target word. A skip-gram model is a reverse of the continuous bag of words (CBOW) model.</td>
+</tr>
+<tr>
+<td><strong>Word embedding</strong></td>
+<td>Representation of words as dense vectors, capturing their relationship based on the context</td>
+</tr>
+<tr>
+<td><strong>Word2vec</strong></td>
+<td>The group of models that produce word embeddings or vectors, which are numerical representations capturing the essence of words. It is the short form for "word to vector."</td>
+</tr>
+</tbody></table>
+ 
+<p><img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/Bv2oorkIjbqb2OObRpdoPg/ibmsn-footer-blue%20-1-.png" alt=""></p>
+</div></body></html>
