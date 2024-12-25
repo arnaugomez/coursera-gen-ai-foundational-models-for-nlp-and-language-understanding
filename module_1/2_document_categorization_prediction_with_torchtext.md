@@ -46,16 +46,16 @@ This lesson focuses on creating a **document classification system** using Torch
 
 ## **3. Neural Network Components**
 
-### **Embedding Layer**:
+### **Embedding Layer**
 
 - Converts input token indices into **dense embedding vectors**.
 - These embeddings are passed to the network for further processing.
 
-### **Learnable Parameters**:
+### Learnable Parameters
 
 - Weights and biases adjusted during training to minimize error.
 
-## **4. Example Workflow for Document Categorization**
+## 4. Example Workflow for Document Categorization
 
 1. **Input**:
 
@@ -74,11 +74,11 @@ This lesson focuses on creating a **document classification system** using Torch
 
 ## **5. Neural Network Hyperparameters**
 
-### **Definition**:
+### Definition
 
 - **Externally set configurations** that define the structure and behavior of a neural network.
 
-### **Key Hyperparameters**:
+### **Key Hyperparameters**
 
 1. **Number of Layers**:
    - Input Layer → Hidden Layer(s) → Output Layer.

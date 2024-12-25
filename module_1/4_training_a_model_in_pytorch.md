@@ -14,8 +14,8 @@
 
    - Split the dataset into training and testing datasets.
    - Further split the training data into:
-     - **Training data**
-     - **Validation data**
+     - Training data
+     - Validation data
 
 3. **Data Loaders**:
 
@@ -80,21 +80,21 @@
 
 #### Recap of Key Learning Points
 
-1. **Data Preparation**:
+1. Data Preparation:
 
    - Split the dataset into training, validation, and testing datasets.
    - Use data loaders for efficient batching and shuffling.
 
-2. **Batch Size**:
+2. Batch Size:
 
    - Affects gradient approximation and optimization.
 
-3. **Model Training**:
+3. Model Training:
 
    - Initialize weights for better optimization.
    - Iterate over epochs, calculate loss, and optimize using gradient descent.
    - Divide data into batches for better training performance.
 
-4. **Validation and Saving**:
+4. Validation and Saving:
    - Save model parameters when validation accuracy improves.
    - Use plots to visualize the relationship between loss and accuracy during training.
